@@ -5,7 +5,7 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    AtlasDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
+    AtlasDesc : "AtlasVolunteers is a web application designed to facilitate the connection between volunteers and organizations. Its goal is to simplify the search, management, and participation in community service projects, while promoting civic engagement and social impact.",
     AtlasGithub : "https://github.com/Ayoub-fetti/AtlasVolunteer",
 
     AgencyDesc : "FettiAgency is a demo website showcasing a modern digital agency concept. It highlights creative services, clean design, and responsive layouts, serving as a sample project to demonstrate web development skills and UI/UX best practice",
@@ -15,7 +15,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     IridanDesc:"Iridan3t is a demo ERP platform designed for digital management. It provides an all-in-one solution to streamline business processes—such as projects, clients, and resources—while showcasing efficient data handling and a modern, user-friendly interface",
     IridanGithub:"https://github.com/Ayoub-fetti/Iridan-3t",
 
-    FettiVerseDesc:"FettiVerse is your go-to source for web, mobile, and DevOps insights. We deliver tutorials, best practices, and industry updates to help developers build smarter, faster, and more scalable applications",
+    FettiVerseDesc:"FettiVerse is a modern blog dedicated to DevOps, mobile, and web development. It shares tutorials, best practices, and insights to help developers stay updated with the latest technologies and trends.",
     FettiVerseGithub:"https://github.com/Ayoub-fetti/InfoPulse",
     FettiVerseWebsite:"https://fettiverse.tech/",
   }
