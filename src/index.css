@@ -302,9 +302,7 @@ b{
   font-weight: bold;
 }
 
-.Avatar{
-  width: 280px;
-}
+
 
 @media(max-width:900px){
   .AboutPage{

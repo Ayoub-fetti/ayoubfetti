@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {AiOutlineHome} from "react-icons/ai";
 import {BsPerson, BsCodeSlash} from "react-icons/bs";
 import {CgFileDocument} from "react-icons/cg";
+import logo from  '../images/logo.png';
 
 
 const Nav = () => {
@@ -41,8 +42,20 @@ const Nav = () => {
 
   return (
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
- 
-        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>.FETTI</h1>
+        <img 
+        src={logo}
+        alt='Logo'
+        title='Reload'
+        onClick={()=>window.location.reload(true)}
+        className='Logo'
+        style={{
+            height: '120px',
+            width: 'auto',
+            cursor: 'pointer',
+            marginTop: '10px',
+            padding: '5px'
+        }}
+        />
 
         <div className='Hamburger' onClick={showMenu}>
             <span className='bar'></span>
